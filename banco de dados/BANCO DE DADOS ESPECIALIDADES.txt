@@ -1,0 +1,23 @@
+CREATE TABLE `especialidades` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(120) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `especialidades` (`id`, `nome`) VALUES
+(1, 'Acupuntura'),
+(2, 'Anestesiologia geral e especialidades'),
+(3, 'Cardiogia'),
+(4, 'Cirurgia geral e especialidades'),
+(5, 'Endocrinologia'),
+(6, 'Fisioterapia e reabilitação'),
+(7, 'Medicina Comportamental'),
+(8, 'Medicina felina'),
+(9, 'Nefrologia e urologia'),
+(10, 'Neurologia'),
+(11, 'Nutrição'),
+(12, 'Odontologia'),
+(13, 'Oftalmologia'),
+(14, 'Oncologia'),
+(15, 'Ortopedia'),
+(16, 'Ultrassonografia');

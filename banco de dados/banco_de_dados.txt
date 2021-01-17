@@ -1,0 +1,11 @@
+CREATE DATABASE espacovets;
+
+use espacovets;
+
+CREATE TABLE usuarios (
+  id_usuario int(11) AUTO_INCREMENT primary key,
+  nome varchar(30),
+  telefone varchar(30),
+  email varchar(40),
+  senha varchar(32)
+) 
